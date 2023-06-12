@@ -1,0 +1,33 @@
+body {
+    background-color:  hsl(217, 54%, 11%);
+    color: hsl(0, 100%, 100%);
+}
+
+.main {
+    background-color: hsl(216, 50%, 16%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.section:nth-of-type(2) p:nth-of-type(1) {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    background-color: hsl(215, 32%, 27%);
+}
+
+.section:nth-of-type(3) span {
+    color: hsl(0, 100%, 100%);
+}
+
+h1:hover, .section:nth-of-type(3) span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
